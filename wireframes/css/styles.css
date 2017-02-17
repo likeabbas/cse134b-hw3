@@ -1,0 +1,47 @@
+#header {
+  border-top: solid;
+  border-bottom: solid;
+  background-color: green;
+
+}
+
+#topHeader {
+  display: flex;
+}
+
+#navigator {
+  display: flex;
+}
+
+#content {
+
+}
+
+#preContent {
+
+}
+
+.mainButton {
+
+}
+
+.guideContent {
+
+}
+
+.circle {
+
+} 
+
+.topTextCircle {
+
+} 
+
+.bottomTextCircle {
+
+} 
+
+img {
+
+}
+

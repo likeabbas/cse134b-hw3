@@ -2,15 +2,33 @@
   border-top: solid;
   border-bottom: solid;
   background-color: green;
+  height: 150px;
+  max-width: 1200px;
+  margin: 0px auto !important;
 
 }
 
 #topHeader {
   display: flex;
+  height: 80%;
+  line-height: 75px;
+  align-items: baseline;
+  justify-content: space-between;
+  
+
+}
+
+#topHeader > {
+  /*vertical-align: middle;*/
+}
+
+span {
+  
 }
 
 #navigator {
   display: flex;
+  justify-content: space-around;
 }
 
 #content {

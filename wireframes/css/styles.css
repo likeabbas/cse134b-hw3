@@ -372,5 +372,54 @@ h5 {
 }
 
 
-
 /* end addToCollection */
+
+/* start specificItem */
+#itemHeader {
+  margin-left: 20px;
+}
+
+#specificItemPreContent {
+  padding-top: 0px;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+#specificItemImage {
+  border: 1px solid black;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+#itemHeader .mainButton {
+  font-size: 14px;
+  text-align: center;
+
+}
+#itemHeaderButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#specificItemTableWrapper {
+  align-self: center;
+  margin-left: 100px;
+}
+
+#specificItemTableWrapper table, #specificItemTableWrapper td {
+  border: 1px solid black;
+}
+
+
+
+#specificItemActualContent {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* end specificItem */
+

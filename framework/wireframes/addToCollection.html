@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add to Collection</title>
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+</head>
+<body>
+
+  <div class="container">
+      <h4>Add BMO to your collection! Enter what you want to remember and submit!</h3>
+      <img alt="" src="img/wolf.jpg" height=120 width=180 style="float: right;">
+      <form class="">
+        <div class="input-field">
+          <input id="date" type="date" class="validate">
+          <label for="date">Date Purchased</label>
+        </div>
+        <div class="input-field">
+          <input id="price" type="text" class="validate">
+          <label for="price">Purchase Price(USD)</label>
+        </div>
+        <div class="input-field">
+          <input id="from" type="text" class="validate">
+          <label for="from">Purchased From</label>
+        </div>
+        <div class="input-field col s12">
+          <select id="condition" class="browser-default"><option value="volvo">Mint</option>><option value="volvo">Good</option><option value="volvo">Fair</option><option value="volvo">Damaged</option></select>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="notes"></textarea>          
+          <label for="notes">Other Notes</label>
+        </div>     
+      </form>
+  </div>
+</body>
+<script src="js/materialize.min.js"></script>
+</html>

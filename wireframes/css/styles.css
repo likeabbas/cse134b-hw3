@@ -1,7 +1,24 @@
+@font-face {
+    font-family: Operator;
+    src: url(../fonts/OperatorMono-Book.otf);
+}
+
+html, body {
+  font-family: Operator;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
 #header {
-  border-top: solid;
-  border-bottom: solid;
-  background-color: green;
+  /*border-top: solid;*/
+  /*border-bottom: solid;*/
+  border: solid;
+  background-color: #99FFCC;
   height: 150px;
   max-width: 1200px;
   margin: 0px auto !important;
@@ -13,38 +30,74 @@
   height: 80%;
   line-height: 75px;
   align-items: baseline;
-  justify-content: space-between;
-  
-
+  justify-content: space-around;
 }
 
-#topHeader > {
-  /*vertical-align: middle;*/
+#topHeader > h3 {
+  line-height: 10px;
+  align-self: center;
+}
+
+#headerVerticalLine {
+  border-left:1px solid black;
+  height: 100px;
+  align-self: center;
 }
 
 span {
   
 }
 
+.headerButtons:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: pink;
+}
+
 #navigator {
+  position: relative;
   display: flex;
   justify-content: space-around;
+  background-color: #DCDCDC;
+  border-bottom: solid;
+}
+
+.navLine {  
+  border-left: 1px solid black;
+  height: 30px;
 }
 
 #content {
-
+  /*position: absolute;*/
+  max-width: 1200px;
+  margin: 0px auto !important;
+  background-color: #D1D1D1;
+  height: 100%;
 }
 
 #preContent {
+  
+  /*margin: auto !important;*/
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  
 
+}
+
+h4 {
+  font-size: 28px;
+  height: 50px;
+  margin: 20px;
 }
 
 .mainButton {
 
 }
 
-.guideContent {
-
+#mainContent {
+  display: flex;
+  justify-content: space-around;
 }
 
 .circle {
@@ -59,7 +112,23 @@ span {
 
 } 
 
-img {
+.imageCropper {
+  width: 266px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.frontPagePopFrameText {
+  display: block;
+  text-align: center;
 }
 

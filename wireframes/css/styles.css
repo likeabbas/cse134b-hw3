@@ -146,7 +146,7 @@ h4 {
 }
 
 /* mainGuide.html specific */
-#buttonWrapper {
+#mainGuideButtonsWrapper {
   display: flex;
   padding: 15px;
 }
@@ -196,6 +196,7 @@ h4 {
   background-color: #F5F5F5;
   max-width: 1200px;
   height: 100%;
+  margin: 10px;
 }
 
 .standardContentImages {
@@ -211,10 +212,50 @@ h4 {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+
 }
 .circle {
   text-align: center;
 }
 
 /*End mainGuide specific */
+
+/*Start guideSpecificFranchise */
+#topPreHeaderFranchise {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.franchiseImage {
+  max-width: 200px;
+  max-height: 100px;
+  float: left;
+}
+
+
+
+#topPreHeaderFranchise .mainButton {
+  max-width: 155px;
+  max-height: 25px;
+  margin-top: 20px;
+
+}
+
+#filterSearchForm {
+  margin: 15px;
+}
+
+#filterSearchText {
+  width: 40%;
+  height: 20px;
+}
+
+select {
+  
+
+}
+
+/*End guideSpecificFranchise */
+
 

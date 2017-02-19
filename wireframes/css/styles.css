@@ -310,3 +310,43 @@ h5 {
 
 /* End myStuff */
 
+
+/* start loginForm */
+#loginSignupBody {
+  max-width: 600px;
+  max-height: 300px;
+  border: 2px solid blue;
+  margin: auto;
+}
+
+#loginSignupBody h4 {
+  text-align: center;
+}
+
+#loginSignupForm {
+  margin: auto;
+}
+#loginSignupForm form {
+  max-width: 200px;
+  margin: auto;
+
+}
+
+#loginSignupForm input {
+  margin: auto;
+  font-size: 16px;
+}
+
+#loginSinupButtonWrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#loginSinupButtonWrapper .mainButton {
+  max-width: 200px;
+  /*margin: auto;*/
+  
+}
+
+/* end loginForm */

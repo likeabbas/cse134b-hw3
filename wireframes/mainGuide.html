@@ -27,32 +27,37 @@
 
   </div>
 
-  <div id=content>
-    <div id=preContent>
-      <div class=mainButton>Pop! Vinyl</div>
-      <div class=mainButton>Dorbz</div>
-      <div class=mainButton>Myster Vinyl</div>
+  <div id=content >
 
-      <form action="#">
+    <div id=mainGuidePreContent>
+      <div id=buttonWrapper>
+      <div class="mainButton" >Pop! Vinyl</div>
+      <div class="mainButton" >Dorbz</div>
+      <div class="mainButton" >Myster Vinyl</div>
+      </div>
+      <div id=formWrapper><form id=searchForm action="#">
         <input type=text name=filterSearch placeholder="Filter Search">
-      </form>
+      </form></div>
     </div>
-    <div class=guideContent>
+
+    <div class=standardContentView>
+
       <div class=circle>
-        <img alt="" src="img/circle.jpeg" width=150 height=150>
+        <div class=imageCropperStandard><img class=standardContentImages alt="" src="img/circle.jpeg" width=150 height=150></div>
         <p class="topTextCircle">All</p>
         <p class=bottomTextCirlce>1000 items</p>
       </div>
       <div class=circle>
-        <img alt="" src="img/circle.jpeg" width=150 height=150>
+        <div class=imageCropperStandard><img class=standardContentImages alt="" src="img/circle.jpeg" width=150 height=150></div>
         <p class="topTextCircle">Franchise</p>
         <p class=bottomTextCirlce>60 items</p>
       </div>
       <div class=circle>
-        <img alt="" src="img/circle.jpeg" width=150 height=150>
+        <div class=imageCropperStandard><img class=standardContentImages alt="" src="img/circle.jpeg" width=150 height=150></div>
         <p class="topTextCircle">Franchise</p>
         <p class=bottomTextCirlce>60 items</p>
       </div>
+      
     </div>
   </div>
 </body>

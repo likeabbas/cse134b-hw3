@@ -70,9 +70,11 @@ span {
 #content {
   /*position: absolute;*/
   max-width: 1200px;
-  margin: 0px auto !important;
+  margin: auto !important;
   background-color: #D1D1D1;
   height: 100%;
+
+  /*position: absolute;*/
 }
 
 #preContent {
@@ -84,6 +86,8 @@ span {
   
 
 }
+
+#main
 
 h4 {
   font-size: 28px;
@@ -98,6 +102,11 @@ h4 {
 #mainContent {
   display: flex;
   justify-content: space-around;
+}
+
+#guideContent {
+  background-color: white;
+  border-left: .5px solid grey;
 }
 
 .circle {
@@ -120,7 +129,7 @@ h4 {
   border-radius: 50%;
 }
 
-img {
+.mainContentImages {
   display: inline;
   margin: 0 auto;
   height: 100%;
@@ -131,4 +140,81 @@ img {
   display: block;
   text-align: center;
 }
+
+#mainGuidePreContent {
+  height: 100px;
+}
+
+/* mainGuide.html specific */
+#buttonWrapper {
+  display: flex;
+  padding: 15px;
+}
+
+.mainButton {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.mainButton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#formWrapper {
+  margin-left: 15px;
+}
+#formWrapper input {
+  width: 70%;
+  height: 16px;
+}
+
+.standardContentView {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: solid;
+  background-color: #F5F5F5;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.standardContentImages {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.imageCropperStandard {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circle {
+  text-align: center;
+}
+
+/*End mainGuide specific */
 

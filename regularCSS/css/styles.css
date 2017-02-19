@@ -15,8 +15,6 @@ h1 {
 }
 
 #header {
-  /*border-top: solid;*/
-  /*border-bottom: solid;*/
   border: solid;
   background-color: #99FFCC;
   height: 150px;
@@ -68,7 +66,7 @@ span {
 }
 
 #content {
-  /*position: absolute;*/
+  /*position: relative*/
   max-width: 1200px;
   margin: auto !important;
   background-color: #D1D1D1;
@@ -146,7 +144,7 @@ h4 {
 }
 
 /* mainGuide.html specific */
-#buttonWrapper {
+#mainGuideButtonsWrapper {
   display: flex;
   padding: 15px;
 }
@@ -188,7 +186,7 @@ h4 {
 }
 
 .standardContentView {
-  position: relative;
+  /*position: relative;*/
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -196,6 +194,8 @@ h4 {
   background-color: #F5F5F5;
   max-width: 1200px;
   height: 100%;
+  margin: 10px;
+
 }
 
 .standardContentImages {
@@ -211,6 +211,7 @@ h4 {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+
 }
 .circle {
   text-align: center;
@@ -218,3 +219,216 @@ h4 {
 
 /*End mainGuide specific */
 
+/*Start guideSpecificFranchise */
+#topPreHeaderFranchise {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.franchiseImage {
+  max-width: 200px;
+  max-height: 100px;
+  float: left;
+}
+
+
+
+#topPreHeaderFranchise .mainButton {
+  max-width: 155px;
+  max-height: 25px;
+  margin-top: 20px;
+
+}
+
+#filterSearchForm {
+  margin: 15px;
+}
+
+#filterSearchText {
+  width: 40%;
+  height: 20px;
+}
+
+select {
+  
+
+}
+
+/*End guideSpecificFranchise */
+
+/* Start myStuff */
+
+h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#userCollectionWishlistBox {
+  margin-top: 15px;
+  border: 3px solid black;
+}
+
+#userCollectionWishlistBox .mainButton {
+  font-size: 14px;
+}
+
+#buttonsWrapper {
+  display: flex;
+  padding: 15px;
+}
+
+#userCollectionWishlistBox {
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+#myStuffPreContent {
+  
+  /*margin: auto !important;*/
+  padding-top: 0px;
+  display: flex;
+  width: 100%;
+  /*justify-content: center;*/
+  
+}
+
+#stuffForm {
+  align-self: flex-end;
+}
+
+#myStuffFormSplit {
+  margin-top: 35px;
+  position: relative;
+  
+}
+
+#myStuffFilterSearch {
+  width: 300px;
+}
+
+/* End myStuff */
+
+
+/* start loginForm */
+#loginSignupBody {
+  max-width: 600px;
+  max-height: 300px;
+  border: 2px solid blue;
+  margin: auto;
+}
+
+#loginSignupBody h4 {
+  text-align: center;
+}
+
+#loginSignupForm {
+  margin: auto;
+}
+#loginSignupForm form {
+  max-width: 200px;
+  margin: auto;
+
+}
+
+#loginSignupForm input {
+  margin: auto;
+  font-size: 16px;
+}
+
+#loginSinupButtonWrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#loginSinupButtonWrapper .mainButton {
+  max-width: 200px;
+  /*margin: auto;*/
+  
+}
+
+/* end loginForm */
+
+
+/* start addtoCollection */
+
+#addToCollectionBody {
+  width: 700px;
+  height: 600px;
+  border: 2px solid blue;
+  margin: auto;
+}
+
+#addToCollectionBody h3 {
+  text-align: center;
+  font-size: 24px;
+}
+#addCollImg {
+  padding: 1px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+
+/* end addToCollection */
+
+/* start specificItem */
+#itemHeader {
+  margin-left: 20px;
+}
+
+#specificItemPreContent {
+  padding-top: 0px;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+#specificItemImage {
+  border: 1px solid black;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+#itemHeader .mainButton {
+  font-size: 14px;
+  text-align: center;
+
+}
+#itemHeaderButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#specificItemTableWrapper {
+  align-self: center;
+  margin-left: 100px;
+}
+
+#specificItemTableWrapper table, #specificItemTableWrapper td {
+  border: 1px solid black;
+}
+
+
+
+#specificItemActualContent {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* end specificItem */
+
+
+/* start news */
+#newsContent {
+  display: flex;
+  justify-content: space-between; 
+  background-color: #D1D1D1;
+  max-width: 1200px;
+  margin: auto;
+}
+/* end news */

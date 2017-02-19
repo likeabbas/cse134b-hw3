@@ -53,3 +53,9 @@
 #rightNews {
   float: right;
 }
+.userCollectionWishlistBox a.btn {
+  margin: 10px;
+}
+.userCollectionWishlistBox {
+  text-align: center;
+}

@@ -258,4 +258,55 @@ select {
 
 /*End guideSpecificFranchise */
 
+/* Start myStuff */
+
+h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#userCollectionWishlistBox {
+  margin-top: 15px;
+  border: 3px solid black;
+}
+
+#userCollectionWishlistBox .mainButton {
+  font-size: 14px;
+}
+
+#buttonsWrapper {
+  display: flex;
+  padding: 15px;
+}
+
+#userCollectionWishlistBox {
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+#myStuffPreContent {
+  
+  /*margin: auto !important;*/
+  padding-top: 0px;
+  display: flex;
+  width: 100%;
+  /*justify-content: center;*/
+  
+}
+
+#stuffForm {
+  align-self: flex-end;
+}
+
+#myStuffFormSplit {
+  margin-top: 35px;
+  position: relative;
+  
+}
+
+#myStuffFilterSearch {
+  width: 300px;
+}
+
+/* End myStuff */
 
